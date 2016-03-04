@@ -62,7 +62,8 @@ There are 10299 obs. of  69 variables:
 	* 5 		STANDING
 	* 6 		LAYING
  
- * variables 4-69 with summary about quantile 0%, 25%, 50%, 75%, 100%
+Variables 4-69 with summary about quantile 0%, 25%, 50%, 75%, 100%
+
 4. tBodyAcc-mean()-X           -1  0.26262480  0.277173880  0.28835422    1
 5. tBodyAcc-mean()-Y           -1 -0.02490248 -0.017161624 -0.01062456    1
 6. tBodyAcc-mean()-Z           -1 -0.12101888 -0.108596420 -0.09758935    1
