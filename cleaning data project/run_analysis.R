@@ -39,6 +39,7 @@ write.table(data, "data1.txt", quote = F, row.names = F)
 
 # calculate mean for each variable by subject and activity
 data.mean <- data %>% group_by(subject, activity.name) %>% summarise_each(funs(mean))
+names(data.mean)[4:69] <- paste("avg_", names(data)[4:69], sep = "")
 write.table(data.mean, "data2.txt", quote = F, row.names = F)
 
 # calculate quantiles for each numeric measure i.e. variable of columns 4-69
